@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SÌ de Giorgio Armani</title>
+<style>
+body {
+margin: 0;
+font-family: 'Georgia', serif;
+background-color: #f9f4f2;
+color: #333;
+}
+
+header {
+background-color: #000;
+color: #fff;
+text-align: center;
+padding: 2rem 1rem;
+}
+
+header h1 {
+font-size: 3rem;
+margin: 0;
+font-weight: 300;
+letter-spacing: 2px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+padding: 3rem 2rem;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+}
+
+.perfume-img {
+flex: 1 1 300px;
+max-width: 350px;
+}
+
+.perfume-img img {
+width: 100%;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.perfume-info {
+flex: 1 1 300px;
+max-width: 500px;
+}
+
+.perfume-info h2 {
+font-size: 2rem;
+margin-bottom: 1rem;
+color: #222;
+}
+
+.perfume-info p {
+font-size: 1.1rem;
+line-height: 1.6;
+margin-bottom: 2rem;
+}
+
+.btn-comprar {
+background-color: #000;
+color: #fff;
+padding: 1rem 2rem;
+font-size: 1rem;
+border: none;
+border-radius: 5px;
+cursor: not-allowed;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+footer {
+text-align: center;
+padding: 1rem;
+font-size: 0.9rem;
+color: #777;
+}
+
+@media (max-width: 768px) {
+.container {
+flex-direction: column;
+padding: 2rem 1rem;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>SÌ by Giorgio Armani</h1>
+</header>
+
+<section class="container">
+<div class="perfume-img">
+<img src="si-perfume.png" alt="Perfume Sì Giorgio Armani">
+</div>
+
+<div class="perfume-info">
+<h2>La elegancia hecha fragancia</h2>
+<p>
+Sì es la declaración de una mujer segura, femenina y libre. Una fragancia moderna y sofisticada con notas de
+cassis, fresia y vainilla que envuelven los sentidos con sensualidad y fuerza. Di Sì a ti misma.
+</p>
+<button class="btn-comprar" disabled>Comprar ahora</button>
+</div>
+</section>
+
+<footer>
+Página ficticia para uso demostrativo. Producto no disponible para la venta.
+</footer>
+<footer>Hecho por Montserrat Asumu Mamadu</footer>
+
+</body>
+</html>
